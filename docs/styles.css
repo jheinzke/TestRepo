@@ -1,13 +1,20 @@
 header {
-  border-bottom: 2px solid #1C2833;
+  background-color: #F7FFFF;
+  border: 2px solid #218080;
+  color: #000000;
+  font-size: 30px;
   padding: 10px;
   text-align: center;
 }
 
 body {
+  color: #000000;
   display: block;
-  color: #1C2833;
   font-family: Helvetica, sans-serif;
+}
+
+p {
+  font-size: 18px;
 }
 
 .what, .why, .how {
@@ -15,9 +22,9 @@ body {
 }
 
 footer {
-  background-color: #1C2833;
-  color: #FFFFFF;
-  margin-top: 8%;
+  background-color: #FFFAFA;
+  border: 2px solid #B55D5D;
+  margin-top: 6%;
   padding: 20px;
   text-align: center;
 }
@@ -34,4 +41,16 @@ a:hover, a:focus {
 img {
   float: right;
   padding: 20px;
+}
+
+.what h2 {
+  text-decoration: underline solid #218080;
+}
+
+.why h2 {
+  text-decoration: underline solid #B55D5D;
+}
+
+.how h2 {
+  text-decoration: underline solid #7EB94B;
 }
