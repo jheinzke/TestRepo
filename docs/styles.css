@@ -43,6 +43,10 @@ img {
   padding: 20px;
 }
 
+h1, h2 {
+  font-family: Tahoma, sans-serif;
+}
+
 .what h2 {
   text-decoration: underline solid #218080;
 }
