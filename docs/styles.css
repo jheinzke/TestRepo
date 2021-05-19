@@ -20,3 +20,12 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+a {
+  color: #4BB9B9;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #B94B4B;
+}
