@@ -6,8 +6,7 @@ header {
 
 body {
   display: block;
-  background-color: #1C2833;
-  color: #FFFFFF;
+  color: #1C2833;
   font-family: Helvetica, sans-serif;
 }
 
@@ -18,7 +17,8 @@ body {
 footer {
   background-color: #1C2833;
   color: #FFFFFF;
-  padding: 10px;
+  margin-top: 8%;
+  padding: 20px;
   text-align: center;
 }
 
@@ -29,4 +29,9 @@ a {
 
 a:hover, a:focus {
   color: #B94B4B;
+}
+
+img {
+  float: right;
+  padding: 20px;
 }
